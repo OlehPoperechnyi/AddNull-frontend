@@ -1,0 +1,47 @@
+body{
+    background-color: f9f7f7;
+    width:1280px;
+    padding: 0;
+    margin:0;
+
+}
+.wrapper{
+    padding: 0;
+    margin:0;
+}
+.email-form-container{
+    width:372px;
+    height:441px;
+    margin: 191px 817px 88px 91px;
+    border: 1px solid;
+   
+
+}
+.header-slogan{
+
+padding-top:-0.5px;
+font-family: "Playfair Display", sans-serif;
+font-size: 49px;
+font-weight: 500;
+line-height: 70.56px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #191919;
+}
+.second-header-slogan{
+    font-family: Roboto;
+font-size: 21px;
+font-weight: 400;
+line-height: 24.61px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #191919;
+}
+
+.header-image{
+    width: 727px;
+    height:646px;
+    margin:99px 1px 78px 554px;
+}
