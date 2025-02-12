@@ -16,7 +16,7 @@
       <img
         height="93"
         width="93"
-        src="/img/crowninhands-illustration.svg?000000001"
+        src="/img/crowninhands-illustration.png"
         alt="Image of a crown in hands">
       <h2 class="h3">Header</h2>
       <p>Interdum et malesuada fames ac ante...</p>
@@ -25,7 +25,7 @@
       <img
         height="93"
         width="93"
-        src="/img/handshake-illustration.svg?000000002"
+        src="/img/handshake-illustration.png"
         alt="Image of a handshake">
       <h2 class="h3">Header</h2>
       <p>С Interdum et malesuada fames ac ante...</p>
@@ -34,7 +34,7 @@
       <img
         height="93"
         width="93"
-        src="/img/money-illustration.svg?000000003"
+        src="/img/money-illustration.png"
         alt="Image of a money in hand">
       <h2 class="h3">Header</h2>
       <p> Interdum et malesuada fames ac ante...</p>
