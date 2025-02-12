@@ -14,8 +14,8 @@
   <div class="row">
     <div class="column one-third">
       <img
-        height="242"
-        width="240"
+        height="93"
+        width="93"
         src="/img/crowninhands-illustration.svg?000000001"
         alt="Image of a crown in hands">
       <h2 class="h3">Header</h2>
@@ -23,8 +23,8 @@
     </div>
     <div class="column one-third">
       <img
-        height="242"
-        width="240"
+        height="93"
+        width="93"
         src="/img/handshake-illustration.svg?000000002"
         alt="Image of a handshake">
       <h2 class="h3">Header</h2>
@@ -32,8 +32,8 @@
     </div>
     <div class="column one-third">
       <img
-        height="242"
-        width="240"
+        height="93"
+        width="93"
         src="/img/money-illustration.svg?000000003"
         alt="Image of a money in hand">
       <h2 class="h3">Header</h2>
