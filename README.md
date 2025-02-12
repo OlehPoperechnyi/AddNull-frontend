@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html 
+lang="en"
+data-page="index"
+data-siteurl="https://adnull.com"
+dir="ltr"
+class="no-js  page-index">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <section id="abb-cross-promotion" class="bg-secondary hide-on-ios hide-on-android">
   <div class="container content">
     <div class="phablet-width">
@@ -41,3 +52,6 @@
     </div>
   </div>
 </div>
+
+ </body>
+</html>
