@@ -28,7 +28,7 @@ class="no-js  page-index">
         height="93"
         width="93"
         src="/img/crowninhands-illustration.png"
-        alt="[Image of a crown in hands]([crowninhands-illustration.png](https://github.com/OlehPoperechnyi/AddNull-frontend/blob/SCRUM-6/crowninhands-illustration.png))">
+        alt="[Image of a crown in hands]([crowninhands-illustration.png](https://github.com/OlehPoperechnyi/AddNull-frontend/blob/SCRUM-6/crowninhands-illustration.png)">
       <h2 class="h3">Header</h2>
       <p>Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero pharetra pharetra. Praesent nec pellentesque risus.</p>
     </div>
