@@ -13,7 +13,7 @@ class="no-js  page-index">
   <div class="container content">
     <div class="phablet-width">
       <h2>
-        Features <span class="avoid-wrap">our key competitive advantages</span>
+        Features <span class="avoid-wrap">OUR KEY COMPETITIVE ADVANTAGES</span>
       </h2>
     </div>
 
@@ -30,7 +30,7 @@ class="no-js  page-index">
         src="/img/crowninhands-illustration.png"
         alt="Image of a crown in hands">
       <h2 class="h3">Header</h2>
-      <p>Interdum et malesuada fames ac ante...</p>
+      <p>Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero pharetra pharetra. Praesent nec pellentesque risus.</p>
     </div>
     <div class="column one-third">
       <img
@@ -39,7 +39,7 @@ class="no-js  page-index">
         src="/img/handshake-illustration.png"
         alt="Image of a handshake">
       <h2 class="h3">Header</h2>
-      <p>С Interdum et malesuada fames ac ante...</p>
+      <p>С Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero pharetra pharetra. Praesent nec pellentesque risus.</p>
     </div>
     <div class="column one-third">
       <img
@@ -48,7 +48,7 @@ class="no-js  page-index">
         src="/img/money-illustration.png"
         alt="Image of a money in hand">
       <h2 class="h3">Header</h2>
-      <p> Interdum et malesuada fames ac ante...</p>
+      <p> Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero pharetra pharetra. Praesent nec pellentesque risus.</p>
     </div>
   </div>
 </div>
