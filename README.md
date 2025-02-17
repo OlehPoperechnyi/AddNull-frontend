@@ -16,7 +16,8 @@ class="no-js  page-index">
         Features <span class="avoid-wrap">OUR KEY COMPETITIVE ADVANTAGES</span>
       </h2>
     </div>
-
+<head>
+  </body>
 </ul>
     </div>
   </div>
