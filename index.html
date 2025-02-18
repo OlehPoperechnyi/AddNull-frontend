@@ -19,16 +19,16 @@
                   </div>
                 <!-- Email-form container -->
                  <div class="email-form-container">
-                        <h2 class="h2-text">Be Smart, <br>
+                        <h2 class="h2-text" id="AboutUs">Be Smart, <br>
                                             Think Smart, <br>
                                             Save Money
                    </h2>
 
                    <p class="email-container-text">Compare your take home today</p>
 
-                    <form action="/emailform" class="email-form-form" method="post" id="e-mail-form">
-                        {% csrf_token %}
-                        <input type="email" placeholder="Email" class="email-form" name="email" required> <br>
+                    <form action="/emailform" class="email-form-form" method="post" id="e-mail-form" onsubmit="myFunction()">
+                        
+                        <input type="email" placeholder="Email" class="email-form" name="email"  required> <br>
                          
                         <!-- Buttons -->
                          
@@ -38,7 +38,7 @@
                          </div>
                         
                         <div class="butt-a">
-                           <a href=""  >
+                           <a href="#AboutUs"  >
                              <span class="About-us-text">About Us</span>
                             </a>
                         </div>
@@ -46,7 +46,11 @@
 
 
                     </form>
-                 
+                    <script>
+                     function myFunction () {
+                        alert("E-mail succesfull delivered!!")
+                     }
+                    </script>
                  </div>
                 
 
