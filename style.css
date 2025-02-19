@@ -95,6 +95,11 @@ letter-spacing: 0%;
     flex-direction: row;
     width: 372px;
     height: 52px;
+    padding-left: 1px;
+    padding-top:1px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+
 }
 
 .butt-submit{
@@ -136,8 +141,8 @@ letter-spacing: 0%;
     background-color: #F9F7F7;
     display: flex;
    align-items: center;
-  padding-left: 60px;
-  padding-top: 6px;
+  padding-left: 61px;
+  padding-top: 5px;
 
   
 
