@@ -1,0 +1,111 @@
+
+
+background-wrapper{
+background-color: #FFFFFF;
+width: 1172px;
+height: 426px;
+top: 823px;
+left: 54px;
+
+display: flex;
+flex-direction: row-reverse;
+
+}
+
+h1{
+    width: 140.5;
+    height: 25;
+    left: 515.25px;
+    font-family: Playfair Display;
+font-weight: 400;
+font-size: 35px;
+leading-trim: Cap height;
+line-height: 46.66px;
+letter-spacing: 0%;
+text-align: center;
+color: #112D4D;
+        
+}
+
+.image-line-block{
+    width: 40;
+height: 0.9994999766349792;
+top: 42px;
+left: 566px;
+border-width: 1px;
+border: 1px solid #3F72AF
+
+}
+
+h2{
+    width: 243.39999389648438;
+    height: 10;
+    top: 60px;
+    left: 464.3px;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+leading-trim: Cap height;
+line-height: 16.41px;
+letter-spacing: 0%;
+text-align: center;
+color: #4C4C4C;
+
+}
+
+three-head-container{
+    width: 1170;
+height: 294;
+top: 131px;
+left: 1px;
+background: #FFFFFF;
+box-shadow: 0px 0px 20px 0px #0000001A;
+
+
+}
+
+
+first-head-container{
+    width: 270;
+    height: 236;
+    top: 161px;
+    left: 68px;
+       
+}
+
+image-crowninhands-block{
+    width: 69;
+    height: 72;
+    left: 98px;     
+
+}
+
+h3 {
+    width: 94.80000305175781;
+    height: 20;
+    top: 101.5px;
+    left: 86.6px;
+    font-family: Playfair Display;
+font-weight: 400;
+font-size: 28px;
+leading-trim: Cap height;
+line-height: 37.32px;
+letter-spacing: 0%;
+text-align: center;
+color: #191919;
+
+}
+p{width: 270;
+    height: 77;
+    top: 149px;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+leading-trim: Cap height;
+line-height: 22.4px;
+letter-spacing: 0%;
+text-align: center;
+color: #333333;
+
+
+}
