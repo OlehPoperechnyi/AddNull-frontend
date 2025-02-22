@@ -1,0 +1,107 @@
+.how-it-works {
+    background-color: white;
+    margin: 0px;
+    padding:0px;
+width: 1280px;
+height:368px;
+    
+}
+
+.container {
+    background-color: #F9F7F7;
+width:1280px;
+height: 368px;
+
+display: flex;
+flex-direction: center;
+
+}
+.how-it-works-header {
+    display: flex;
+
+}
+.how-it-works-header-head {
+
+}
+.how-it-works-header-title {
+    width: 211.5;
+height: 25;
+top: 70px;
+left: 535.25px;
+font-family: Playfair Display;
+font-weight: 400;
+font-size: 35px;
+leading-trim: Cap height;
+line-height: 46.66px;
+letter-spacing: 0%;
+text-align: center;
+color: #112D4D;
+
+
+}
+.img-block-line {
+    width: 40;
+height: 0.9998000264167786;
+top: 116px;
+left: 621px;
+border-width: 1px;
+color:  #3F72AF
+
+}
+.how-it-works-header-subtitle {
+    width: 223.39999389648438;
+height: 10;
+top: 134px;
+left: 529.3px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+leading-trim: Cap height;
+line-height: 16.41px;
+letter-spacing: 0%;
+text-align: center;
+color: #4C4C4C;
+
+
+}
+.how-it-works-header-content {
+
+}
+.how-it-works-steps {
+    width: 140;
+height: 70;
+top: 205px;
+left: 57px;
+
+
+
+}
+
+.how-it-works-steps {
+}
+
+.step-item {
+}
+
+.step-img {
+    display: flex;
+    width: 31.08px;
+    height: 20px;
+    
+}
+
+.step-text {
+    width: 141.8000030517578;
+height: 13;
+top: 52px;
+left: -0.9px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+leading-trim: Cap height;
+line-height: 21.09px;
+letter-spacing: 0%;
+color: #333333;
+
+
+}
