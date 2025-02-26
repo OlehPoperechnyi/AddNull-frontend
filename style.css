@@ -53,14 +53,17 @@
     margin-bottom: 72.5px;
 }
 
-.email-form-form {
+.email-form {
     width:372px;
     height: 50px;
+    display:flex;
+    flex-direction: column;
 }
 
-.email-form {
+.input-email-form {
     width: 350px;
     height: 50px;
+    min-height: 50px;
     background-color: #DBE2EF;
     border-radius: 25px;
     margin-top: 0px;
