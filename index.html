@@ -1,61 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">    
-<title>AdNull</title>
-</head>
-<body>
-    <section>
-        <div class="Main-section-wrapper">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" >
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"> 
+        <script src="script.js"></script>          
+        <title>AdNull</title>
+    </head>
+    <body>
+        <section class="main-section-wrapper">
             <div class="background-wrapper">
-                 <!-- Img -->
-                 <div class="img-block">
+
+                <div class="img-block">
                     <img src="img/img.jpg" alt="Nice picture" >
-                  </div>
-                <!-- Email-form container -->
-                 <div class="email-form-container">
-                        <h2 class="h2-text" id="AboutUs">Be Smart, <br>
-                                            Think Smart, <br>
-                                            Save Money
-                   </h2>
-
-                   <p class="email-container-text">Compare your take home today</p>
-
+                </div>
+                   
+                <div class="email-form-container">
+                    <h2 class="h2-text" id="AboutUs">Be Smart, <br>Think Smart, <br>Save Money</h2>
+                    <p class="email-container-text">Compare your take home today</p>
                     <form action="" class="email-form-form" method="post" id="e-mail-form" onsubmit="myFunction()">
-                        
                         <input type="email" placeholder="Email" class="email-form" name="email"  required> <br>
-                         
-                        <!-- Buttons -->
-                         
-                   <div class="butt">
-                        <div class="butt-submit">
-                            <button class="button-submit">Submit</button>
-                         </div>
-                        
-                        <div class="butt-a">
-                           <a href="#AboutUs"  >
-                             <span class="About-us-text">About Us</span>
-                            </a>
+
+                        <div class="butt">
+                            <div class="butt-submit">
+                                <button class="button-submit">Submit</button>
+                            </div>
+                            
+                            <div class="butt-a">
+                                <a href="#AboutUs"  ><span class="About-us-text">About Us</span></a>
+                            </div>
                         </div>
-                     </div>
-
-
                     </form>
-                    <script>
-                     function myFunction () {
-                        alert("E-mail succesfull delivered!!")
-                     }
-                    </script>
-                 </div>
-                
-
+                </div>    
             </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 </html>
