@@ -1,3 +1,134 @@
+.container {
+    width: 1172px;
+    height: 426px;
+    top: 823px;
+    left: 54px;
+}
+
+.center-block {
+    width: 100%; 
+    max-width: 1172px;
+    text-align: center;
+}
+
+.section_suptitle {
+    height: 25px;
+    left: 505px;
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #112D4D;
+    margin-bottom: 17px;
+}
+
+.image-line {
+    padding-left: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.section_title {
+    height: 10px;
+    top: 60px;
+    left: 464px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #4C4C4C;
+}
+
+.three-head-container {
+    margin-top: 61px;
+    width: 1170px;
+    height: 294px;
+    top: 131px;
+    left: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    display:flex;
+}
+
+.first-head-container {
+    margin-top: 32px;
+    text-align: center;
+    width: 270px;
+    height: 236px;
+    top: 161px;
+    left: 68px;
+    padding-left: 66px;
+}
+
+.image-crowninhands-block {
+    padding-left: 4px;
+}
+
+.services-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 95;
+    height: 20px;
+    top: 92px;
+    left: 87px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.services-text {
+    line-height: 20px;
+}
+
+.second-head-container {
+    margin-top: 33px;
+    text-align: center;
+    width: 270px;
+    height: 227px;
+    top: 170px;
+    left: 453px;
+    padding-left: 119px;
+}
+
+
+.image-handshake-block {
+    padding-bottom: 2px;
+}
+
+.services-title-2{
+    margin-top: 28px;
+    margin-bottom: 20px;
+    width: 95;
+    height: 20px;
+    top: 92px;
+    left: 85px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 12px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.third-head-container {
+    margin-top: 33px;
+    text-align: center;
+    width: 270px;
+    height: 235px;
+    top: 162px;
+    left: 838px;
+    padding-left: 110px;
+}
+
+.image-money-block {
+    margin-bottom: 2px;
+}
+
 .main-section-wrapper {
     background-color: white;
     margin: 0px;
