@@ -3,7 +3,6 @@
     height: 426px;
     top: 823px;
     left: 54px;
-
 }
 
 .center-block {
@@ -15,7 +14,6 @@
 .section_suptitle {
     height: 25px;
     left: 505px;
-    
     margin-top: 28px;
     font-weight: 400;
     font-size: 40px;
@@ -30,7 +28,6 @@
     padding-left: 8px;
     margin-bottom: 10px;
     margin-top: 10px;
-
 }
 
 .section_title {
@@ -44,7 +41,6 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #4C4C4C;
-
 }
 
 .three-head-container {
@@ -56,7 +52,6 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 20px 0px #0000001A;
     display:flex;
-
 }
 
 .first-head-container {
@@ -67,14 +62,10 @@
     top: 161px;
     left: 68px;
     padding-left: 66px;
-    
-
-
 }
 
 .image-crowninhands-block {
     padding-left: 4px;
-
 }
 
 .services-title {
@@ -89,7 +80,6 @@
     line-height: 12px;
     letter-spacing: 0.01em;
     text-align: center;
-
 }
 
 .services-text {
@@ -104,7 +94,6 @@
     top: 170px;
     left: 453px;
     padding-left: 119px;
-
 }
 
 
@@ -134,11 +123,8 @@
     top: 162px;
     left: 838px;
     padding-left: 110px;
-
-
 }
 
 .image-money-block {
     margin-bottom: 2px;
 }
-
