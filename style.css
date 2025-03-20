@@ -305,3 +305,320 @@ input:invalid {
     line-height: 11px;
     letter-spacing: 0%;
 }
+
+/* Price block */
+
+.price-section-wrapper {
+    width: 1280px;
+    height: 863.5px;
+    margin:0px;
+    padding:0px;
+}
+
+.price-container {
+    width:772px;
+    height: 684px;
+    background-color:white;
+    margin: 58px 255px 121.5px 255px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;   
+    position: relative;
+}
+
+.price-text-container {
+    width:100%;
+    height: 300px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:0;
+    padding:0px;
+}
+
+.price-container-header-text {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top:-7px;
+    margin-bottom: 18px;
+}
+
+.price-header-line {
+    width:40px;
+    border: 0.5px #3F72AF solid;
+    border-left: none;
+    border-right: none;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.price-header-text-offer {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;   
+}
+
+/* First card */
+.price-card-wrapper {
+    width: 372px;
+    height: 542px;
+    position: relative;
+    box-sizing:border-box;
+    margin:0px;
+    margin-top: 144px;
+    margin-right: 28px;
+    margin-left: 1px;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+
+.price-card {
+    width: 370px;
+    height:518px;
+    border: 1px #FFFFFF solid;
+    box-sizing:border-box;
+    padding: 0px; 
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+}
+
+.card-header {
+    width: 370px;
+    height: 60px;
+    background-color: #3F72AF;
+    border: 1px #3F72AF solid;
+    margin-top: 29px;
+    padding: 0px;
+    box-sizing:border-box;
+    margin-bottom: 47px; 
+    margin-left: -1px;
+}
+
+.card-header-text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin:0px;
+    height: 18px;
+    margin-top: 17px;    
+    margin-left: -8px;
+}
+
+.price-text {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #3F71AF;
+    margin-left: -2px;
+    margin-bottom: 45px;
+}
+
+.price-text-span {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #3F71AF;
+}
+
+.price-card-line {
+    width:310px;
+    border: 1px solid #3F71AF;
+    border-left:none;
+    border-right: none;
+    margin-bottom: 49px;
+    background-color: #3F71AF;
+}
+
+.price-card-options {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+    align-content: center;
+    height: 177px;
+    letter-spacing: 0%;
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    flex-direction: column;
+   }
+   
+.price-card-options li {
+   text-align: center;
+   }
+
+.first-price-option { 
+    font-size: 14px;
+    margin-top:-1px;
+    margin-left:-2px;
+} 
+
+.butt-choose {
+    width:200px;
+    height: 50px;
+    position:absolute;
+    bottom:3px;
+    left: 80px;
+    border-radius:30px;
+    background-color: #3F72AF;
+    border: none; 
+}
+
+.price-card-butt-text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+/* Second card */
+.second-price-card-wrapper { 
+    width: 372px;
+    height: 542px;
+    position: relative;
+    box-sizing:border-box;
+    margin:0px;
+    margin-top: 144px;
+    margin-left: 1px;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+
+.second-price-card {
+    width: 370px;
+    height:518px;
+    border: 1px #FFFFFF solid;
+    box-sizing:border-box;
+    padding: 0px; 
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+}
+
+.second-card-header {
+    width: 370px;
+    height: 60px;
+    background-color: #112D4E;
+    border: 1px #112D4E solid;
+    margin-top: 29px;
+    padding: 0px;
+    box-sizing:border-box;
+    margin-bottom: 48px; 
+    margin-left: -1px;
+
+}
+
+.second-card-header-text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin:0px;
+    height: 18px;
+    margin-top: 17px;   
+    margin-left:-8px; 
+}
+
+.second-price-text {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left:-2px;
+    color: #112D4E;
+    margin-bottom: 44px;
+}
+
+.second-price-text-span {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #112D4E
+}
+
+.second-price-card-line {
+    width:310px;
+    border: 1px solid #112D4E;
+    margin-bottom: 48px;
+    border-left:none;
+    border-right:none;
+}
+
+.second-price-card-options {
+    font-family: Roboto;
+    font-weight: 400;
+    width: 100%;
+    height: 177px;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-self: center;
+    align-content: center;
+   }
+   
+.second-price-card-options li {
+    text-align: center;
+}
+
+.first-price-option-second-card {
+    font-size: 14px;
+    margin-top:1px;
+    margin-left:-2px;
+} 
+
+.second-butt-choose {
+    width:200px;
+    height: 50px;
+    position:absolute;
+    bottom:3px;
+    left: 80px;
+    border-radius: 30px;
+    background-color: #112D4E;
+    border: none;
+}
+
+.price-card-butt-text { 
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#FFFFFF;
+}
