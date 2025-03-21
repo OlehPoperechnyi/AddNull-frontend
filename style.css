@@ -322,7 +322,6 @@ input:invalid {
     font-family: Playfair Display;
     font-weight: 400;
     font-size: 35px;
-    leading-trim: Cap height;
     line-height: 100%;
     letter-spacing: 0%;
     padding:0px;
