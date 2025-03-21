@@ -496,6 +496,11 @@ input:invalid {
     color:#FFFFFF;
 }
 
+.butt-choose:active {
+    border: 3px solid #e6e9ee;
+    box-shadow: 3px 7px 5px black;
+}
+
 /* Second card */
 .second-price-card-wrapper { 
     width: 372px;
@@ -612,6 +617,12 @@ input:invalid {
     background-color: #112D4E;
     border: none;
 }
+
+.second-butt-choose:active{
+     border: 3px solid #e6e9ee;
+     box-shadow: 3px 7px 5px black;
+}
+
 
 .price-card-butt-text { 
     font-family: Roboto;
