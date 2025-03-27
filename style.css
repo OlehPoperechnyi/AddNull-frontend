@@ -467,13 +467,13 @@ input:invalid {
    
 .price-card-options li {
    text-align: center;
-   }
+}
 
-.first-price-option { 
+.price-card-options li:first-child{
     font-size: 14px;
     margin-top:-1px;
     margin-left:-2px;
-} 
+}
 
 .butt-choose {
     width:200px;
@@ -600,12 +600,6 @@ input:invalid {
 .second-price-card-options li {
     text-align: center;
 }
-
-.first-price-option-second-card {
-    font-size: 14px;
-    margin-top:1px;
-    margin-left:-2px;
-} 
 
 .second-butt-choose {
     width:200px;
