@@ -463,7 +463,7 @@ input:invalid {
     justify-content: space-between;
     justify-self: center;
     flex-direction: column;
-   }
+}
    
 .price-card-options li {
    text-align: center;
@@ -498,7 +498,8 @@ input:invalid {
 
 .butt-choose:active {
     border: 3px solid #e6e9ee;
-    box-shadow: 3px 7px 5px black;
+    box-shadow:3px 7px 5px black; 
+   
 }
 
 /* Second card */
@@ -514,116 +515,11 @@ input:invalid {
     background-color: #FFFFFF;
 }
 
-.second-price-card {
-    width: 370px;
-    height:518px;
-    border: 1px #FFFFFF solid;
-    box-sizing:border-box;
-    padding: 0px; 
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-    border-radius:10px;
-}
-
-.second-card-header {
-    width: 370px;
-    height: 60px;
+#second-card-header{
     background-color: #112D4E;
     border: 1px #112D4E solid;
-    margin-top: 29px;
-    padding: 0px;
-    box-sizing:border-box;
-    margin-bottom: 48px; 
-    margin-left: -1px;
-
 }
 
-.second-card-header-text {
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    margin:0px;
-    height: 18px;
-    margin-top: 17px;   
-    margin-left:-8px; 
-}
-
-.second-price-text {
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    margin-left:-2px;
-    color: #112D4E;
-    margin-bottom: 44px;
-}
-
-.second-price-text-span {
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #112D4E
-}
-
-.second-price-card-line {
-    width:310px;
-    border: 1px solid #112D4E;
-    margin-bottom: 48px;
-    border-left:none;
-    border-right:none;
-}
-
-.second-price-card-options {
-    font-family: Roboto;
-    font-weight: 400;
-    width: 100%;
-    height: 177px;
-    font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    list-style-type: none;
-    margin: 0px;
-    padding:0px;    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    justify-self: center;
-    align-content: center;
-   }
-   
-.second-price-card-options li {
-    text-align: center;
-}
-
-.second-butt-choose {
-    width:200px;
-    height: 50px;
-    position:absolute;
-    bottom:3px;
-    left: 80px;
-    border-radius: 30px;
-    background-color: #112D4E;
-    border: none;
-}
-
-.second-butt-choose:active{
-     border: 3px solid #e6e9ee;
-     box-shadow: 3px 7px 5px black;
-}
-
-
-.price-card-butt-text { 
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-align: center;
-    color:#FFFFFF;
+#second-card-color {
+      color: #112D4E;
 }
