@@ -305,3 +305,90 @@ input:invalid {
     line-height: 11px;
     letter-spacing: 0%;
 }
+
+/* Yaroslav */
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 77.5px;
+  }
+  
+  .section-header h1 {
+    font-size: 32px;
+    color: #112D4D;
+    font-family: 'Playfair Display';
+    margin: 0;
+  }
+  
+  .section-header .underline {
+    width: 40px;
+    height: 1px;
+    top: 45px;
+    left: 966px;
+    border: 1px; 
+    background-color: #3F72AF;
+    margin: 8px auto;
+  }
+  
+  .section-header p {
+    color: #4C4C4C;
+    font-size: 14 px ;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    width: 463.4 px;
+
+  }
+  
+  .quote-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+  
+  .quote-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 40px 30px 30px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  .quote-icon {
+    font-size: 177px;
+    width: 103px;
+    height: 177px;
+    color: #007bff;
+    opacity: 0.302;
+    position: absolute;
+    top: 1.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    font-family: serif;
+    line-height: 1;
+  }
+  
+  .quote-text {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 100px;
+    font-weight: 500;
+  }
+  
+  .quote-author {
+    margin-top: 20px;
+    font-weight: 400;
+    color: #444;
+  }
+  
