@@ -1,127 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" >
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css"> 
-        <script src="script.js"></script>          
-        <title>AdNull</title>
-    </head>
-    <body>
-        <section class="main-section-wrapper">
-            <div class="background-wrapper">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1280" />
+  <title>FAQ Section</title>
 
-                <div class="img-block">
-                    <img src="img/img.jpg" alt="Nice picture" >
-                </div>
-                   
-                <div class="email-form-container">
-                    <h2 class="h2-text" id="AboutUs">Be Smart, <br>Think Smart, <br>Save Money</h2>
-                    <p class="email-container-text">Compare your take home today</p>
-                    <form action="" class="email-form" method="post" id="e-mail-form" onsubmit="myFunction()">
-                        <input type="email" placeholder="Email" class="input-email-form" name="email"  required>
-                        <div class="butt">
-                            <div class="butt-submit">
-                                <button class="button-submit">Submit</button>
-                            </div>
-                            
-                            <div class="butt-a">
-                                <a href="#AboutUs"  ><span class="About-us-text">About Us</span></a>
-                            </div>
-                        </div>
-                    </form>
-                </div>    
-            </div>
-        </section>
-        <div class="container">
+  <!-- Шрифты -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-              <div class="center-block">
-                  <h1 class="section_suptitle">Features</h1> 
-                  <div class="image-line" >
-                      <img src="./line-illustration.jpg" alt="Image of the line" />
-                  </div>
-                  <h2 class="section_title">OUR KEY COMPETITIVE ADVANTAGES</h2> 
-              </div>
+  <div class="page-wrapper">
+    <section class="faq-section">
+      <div class="faq-container">
+        <h2 class="faq-title">FAQ</h2>
+        <div class="faq-line"></div>
+        <p class="faq-subtitle">THE ANSWER TO THE QUESTIONS YOU WERE AFRAID TO ASK</p>
 
-              <div class="three-head-container">
-                  <div class="first-head-container">
-                      <div class="image-crowninhands-block">
-                          <img src="./crowninhands-illustration.jpg" alt="Image of a crown in hands" />
-                          <div class="services-title">Header</div>
-                          <div class="services-text">Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero pharetra pharetra. Praesent nec pellentesque risus.</div>
-                      </div>
-                  </div>
-                  <div class="second-head-container">
-                      <div class="image-handshake-block">
-                          <img src="./handshake-illustration.jpg" alt="Image of a handshake" />
-                          <div class="services-title-2">Header</div>
-                          <div class="services-text">Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero pharetra pharetra. Praesent nec pellentesque risus.</div>
-                      </div>
-                  </div>
-                  <div class="third-head-container">
-                      <div class="image-money-block">
-                          <img src="./money-illustration.jpg" alt="Image of a money in hand" />
-                          <div class="services-title">Header</div>
-                          <div class="services-text">Interdum et malesuada fames ac ante primis in faucibus. Duis vitae sem lacus. ut eros vel libero pharetra pharetra. Praesent nec pellentesque risus.</div>
-                      </div>
-                  </div>
-              </div>
-          </div>    
-          <!-- Price block -->
-          <section class="price-section-wrapper">
-            <div class="price-container">
-                <div class="price-text-container">
-                    <P class="price-container-header-text">Price</P>
-                    <hr class="price-header-line">
-                    <p class="price-header-text-offer">Compare our tariff plans</p>
-                </div>
-                <!--First card -->
-                <div class="price-card-wrapper">  
-                    <div class="price-card">
-                        <div class="card-header">
-                            <p class="card-header-text">Tier 1</p>
-                        </div>
-                        <p class="price-text">$ 11.99 <span class="price-text-span"> / month </span></p>
-                        <hr class="price-card-line">
-                            <ul class="price-card-options">
-                                <li>Some option number 1</li>
-                                <li>Some option number 2</li>
-                                <li>Some option number 3</li>
-                                <li>Some option number 4</li>
-                                <li>Some option number 5</li>
-                            </ul>                        
-                    </div>
-                    <button name="Choose" type="button" class="butt-choose"><span class="price-card-butt-text">Choose </span></button>
-                </div>
-                <!-- Second card -->
-                <div class="second-price-card-wrapper">  
-                    <div class="price-card">
-                        <div class="card-header" id="second-card-header">
-                            <p class="card-header-text">Tier 2</p>
-                        </div>
-                        <p class="price-text" id="second-card-color">$ 19.99 <span class="price-text-span" id="second-card-color"> / month </span></p>
-                        <hr class="price-card-line" id="second-card-header">
-                            <ul class="price-card-options">
-                                <li>Some option number 1</li>
-                                <li class="list-price-option">Some option number 2</li>
-                                <li class="list-price-option">Some option number 3</li>
-                                <li class="list-price-option">Some option number 4</li>
-                                <li class="list-price-option">Some option number 5</li>
-                            </ul>
-                    </div>
-                    <button name="Choose" type="button" class="butt-choose" style="background-color: #112D4E;"><span class="price-card-butt-text">Choose </span></button>
-                </div>
-            </div>
-        </section>
-           <!-- Our partners block -->
-        <section class="partners-wrapper">
-            <p class="partners-title-text">Our partners</p>
-            <hr class="partners-title-line"> 
-            <p class="partners-title-slogan">We work with a lot of partners, it would be ugly of us not to mention them</p>
-            <img src="Logo.png" alt="Logo picture" class="partners-img">
-        </section>
-    </body>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3 class="faq-question">Maecenas fringilla ante metus?</h3>
+            <p class="faq-answer">Vestibulum eget feugiat nisi, aliquet ultricies nisl. Suspendisse quis nulla massa. Nulla turpis nunc, commodo a est id, pretium convallis sem.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Duis justo diam, rutrum non dignissim?</h3>
+            <p class="faq-answer">Sed quis urna quam. Fusce vitae hendrerit purus. Donec aliquam justo sed vulputate porttitor. Integer laoreet blandit odio id finibus.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Phasellus tellus urna, malesuada vel est sit amet?</h3>
+            <p class="faq-answer">Sed ultricies eget velit quis dictum. Nulla finibus pellentesque arcu in rutrum. Maecenas ipsum lorem, cursus nec, hendrerit volutpat sem.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Cras leo nulla, lacinia non suscipit sed, scelerisque nisi?</h3>
+            <p class="faq-answer">Fusce volutpat ex ac magna aliquet porta. Donec fermentum pretium tellus, et consequat leo blandit ut. Mauris varius felis massa.</p>
+          </div>
+        </div>
+
+        <div class="faq-button">
+          <button>All questions</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
 </html>

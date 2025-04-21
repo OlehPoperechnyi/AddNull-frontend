@@ -1,0 +1,102 @@
+/* Обёртка страницы */
+.page-wrapper {
+    width: 1280px;
+    height: 5857px;
+    position: relative;
+    /* top: -2650px; временно отключено */
+    left: -3px;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  
+  /* Секция без лишних линий */
+  .faq-section {
+    padding: 40px 20px;
+  }
+  
+  /* Контейнер */
+  .faq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Заголовок FAQ */
+.faq-title {
+    font-family: 'Playfair Display', serif; /* Шрифт */
+    font-size: 36px; /* Размер шрифта */
+    font-weight: 400; /* Толщина шрифта */
+    color: #112D4D; /* Цвет текста */
+    margin-top: 72px; /* Отступ сверху */
+    text-align: center; /* Горизонтальное выравнивание по центру */
+    width: auto; /* Автоматическая ширина для текста */
+    height: 25px; /* Высота */
+    line-height: 100%; /* Высота строки */
+    letter-spacing: 0%; /* Межбуквенный интервал */
+}
+
+/* Линия под заголовком */
+.faq-line {
+    width: 40px; /* Ширина линии */
+    height: 1px; /* Высота линии */
+    margin-top: 10px; /* Отступ сверху для линии (чтобы она шла под заголовком) */
+    margin-left: auto; /* Автоматические отступы для центрирования линии */
+    margin-right: auto; /* Автоматические отступы для центрирования линии */
+    border: 1px solid #3F72AF; /* Цвет и толщина линии */
+    background-color: #3F72AF; /* Цвет линии */
+}
+
+  /* Подзаголовок */
+  .faq-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+  }
+  
+  /* Сетка */
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  /* Заголовок вопроса */
+  .faq-question {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+    margin-bottom: 10px;
+  }
+  
+  /* Текст ответа */
+  .faq-answer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.5;
+  }
+  
+  /* Кнопка */
+  .faq-button button {
+    background-color: #3F72AF;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 30px;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-button button:hover {
+    background-color: #0056b3;
+  }
+  
