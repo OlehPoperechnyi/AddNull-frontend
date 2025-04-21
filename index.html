@@ -1,49 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=1280" />
-  <title>FAQ Section</title>
-
-  <!-- Шрифты -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Styled Contact Block on Map</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body>
 
-  <div class="page-wrapper">
-    <section class="faq-section">
-      <div class="faq-container">
-        <h2 class="faq-title">FAQ</h2>
-        <div class="faq-line"></div>
-        <p class="faq-subtitle">THE ANSWER TO THE QUESTIONS YOU WERE AFRAID TO ASK</p>
-
-        <div class="faq-grid">
-          <div class="faq-item">
-            <h3 class="faq-question">Maecenas fringilla ante metus?</h3>
-            <p class="faq-answer">Vestibulum eget feugiat nisi, aliquet ultricies nisl. Suspendisse quis nulla massa. Nulla turpis nunc, commodo a est id, pretium convallis sem.</p>
-          </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Duis justo diam, rutrum non dignissim?</h3>
-            <p class="faq-answer">Sed quis urna quam. Fusce vitae hendrerit purus. Donec aliquam justo sed vulputate porttitor. Integer laoreet blandit odio id finibus.</p>
-          </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Phasellus tellus urna, malesuada vel est sit amet?</h3>
-            <p class="faq-answer">Sed ultricies eget velit quis dictum. Nulla finibus pellentesque arcu in rutrum. Maecenas ipsum lorem, cursus nec, hendrerit volutpat sem.</p>
-          </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Cras leo nulla, lacinia non suscipit sed, scelerisque nisi?</h3>
-            <p class="faq-answer">Fusce volutpat ex ac magna aliquet porta. Donec fermentum pretium tellus, et consequat leo blandit ut. Mauris varius felis massa.</p>
-          </div>
-        </div>
-
-        <div class="faq-button">
-          <button>All questions</button>
-        </div>
-      </div>
-    </section>
+<div class="map-wrapper">
+  <div id="map"></div>
+  <div class="info-block">
+    <h3 class="contact-title">Contact</h3>
+  
+    <div class="contact-item contact-phone">
+      <span class="item-label">Phone:</span>
+      <span class="item-value">0 800 123 45 67</span>
+    </div>
+  
+    <div class="contact-item contact-hours">
+      <span class="item-label">Hours available:</span>
+      <span class="item-value">11AM — 8PM</span>
+    </div>
+  
+    <div class="contact-item contact-email">
+      <span class="item-label">Email:</span>
+      <span class="item-value">support@yoursite.com</span>
+    </div>
   </div>
-
+  
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
